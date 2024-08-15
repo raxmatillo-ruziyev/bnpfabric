@@ -1,0 +1,16 @@
+.service-list{
+    display: flex;
+    flex-wrap:wrap;
+    padding-left: 0;
+    list-style: none;
+}
+.service-title{
+    font-size: 38px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.service-text{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
