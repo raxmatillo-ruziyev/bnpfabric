@@ -31,11 +31,28 @@
     .container {
         width: 900px;
     }
+    .content-list {
+        width: 100%;
+        display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+    }
+    .content-item{
+        width: 32%;
+        text-align: left;
+        margin: 0 auto;
+    }
+    
+   
 }
 
 @media (max-width:920px) {
     .container {
         width: 800px;
+    }
+    .content-item{
+        width: 40%;
+        text-align: left;
     }
 }
 
@@ -55,22 +72,36 @@
     .container {
         width: 500px;
     }
+    .content-item{
+        width: 60%;
+        margin: 0 auto;
+        text-align: left;
+    }
 }
 
 @media (max-width:520px) {
     .container {
         width: 400px;
     }
+    .content-item{
+        width: 65%;
+    text-align: left;}
 }
 
 @media (max-width:420px) {
     .container {
         width: 300px;
     }
+    .content-item{
+        width: 95%;
+        text-align: left;}
 }
 
 @media (max-width:320px) {
     .container {
         width: 200px;
     }
+    .content-item{
+        width: 95%;
+        text-align: center;}
 }
