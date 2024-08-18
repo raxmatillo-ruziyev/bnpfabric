@@ -8,6 +8,7 @@ import { useTranslation } from 'react-i18next';
 import { Button, Drawer } from 'antd';
 import i18n from '../../i18n';
 import { FiMenu } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const { t, i18n } = useTranslation();
@@ -39,10 +40,10 @@ const Navbar = () => {
                                 <a href="#" className="navbar-logo">
                                     <img src={logo} alt="logo" className='logo' width={140} />
                                 </a>
-                                <a href="#" className="navbar-link">{t('home')}</a>
-                                <a href="#" className="navbar-link">{t('collection')}</a>
-                                <a href="#" className="navbar-link">{t('about_us')}</a>
-                                <a href="#" className="navbar-link">{t('contacts')}</a>
+                                <Link to="/" className="navbar-link">{t('home')}</Link>
+                                <Link to="/collection" className="navbar-link">{t('collection')}</Link>
+                                <Link to="/about" className="navbar-link">{t('about_us')}</Link>
+                                <Link to="/contact" className="navbar-link">{t('contacts')}</Link>
                             </li>
                             <li className="navbar-item">
                                 <div className="language-dropdown">
@@ -73,10 +74,10 @@ const Navbar = () => {
                                     <FiMenu />
                                 </button>
                                 <Drawer onClose={onClose} open={open}>
-                                    <a href="#" className="navbar-link2">{t('home')}</a> <br />
-                                    <a href="#" className="navbar-link2">{t('collection')}</a> <br />
-                                    <a href="#" className="navbar-link2">{t('about_us')}</a> <br />
-                                    <a href="#" className="navbar-link2">{t('contacts')}</a>
+                                <Link to="/" className="navbar-link2">{t('home')}</Link>
+                                <Link to="/collection" className="navbar-link2">{t('collection')}</Link>
+                                <Link to="/about" className="navbar-link2">{t('about_us')}</Link>
+                                <Link to="/contact" className="navbar-link2">{t('contacts')}</Link>
 
                                     <div className="language-dropdown2">
                                         <button className="dropdown-button">

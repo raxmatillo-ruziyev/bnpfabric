@@ -9,6 +9,7 @@ import section2 from '../../assets/112.png';
 import section3 from '../../assets/113.png';
 import Service from '../../Components/Service/Service';
 import { useTranslation } from 'react-i18next';
+import New from '../../Components/New/New';
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -29,6 +30,7 @@ const Home = () => {
       <Service serviceTitle={t("service3")} serviceText={t("service2")}/>
       <Section kravat={section1} bg={{background:"#008080"}}/>
       <Service serviceTitle={t("service4")} serviceText={t("service2")}/>
+      <New/>
     </>
   );
 }
