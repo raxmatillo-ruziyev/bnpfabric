@@ -38,7 +38,7 @@ const CardDetail = () => {
             <div className="card-detail">
                 {card ? (
                     <>
-                        <div style={{ display: "flex", justifyContent: "space-between", width: "100%", gap: "50px" }}>
+                        <div className='cardd'>
                             <div className='div-img'>
                                 <img src={card.img} alt={card.title} className="card-detail-img" />
                             </div>
