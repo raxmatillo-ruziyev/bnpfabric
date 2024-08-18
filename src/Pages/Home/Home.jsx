@@ -21,11 +21,11 @@ const Home = () => {
     <Navbar/>
     <Hero/>
     <Content/>
-    <Section kravat={section1} bg={{background:"#777"}}/>
+    <Section kravat={section3} bg={{background:"#4a6391c2"}}/>
     <Service serviceTitle={t("service1")} serviceText={t("service2")}/>
     <Section kravat={section2} bg={{background:"#663399"}}/>
     <Service serviceTitle={t("service3")} serviceText={t("service2")}/>
-    <Section kravat={section3} bg={{background:"#008080"}}/>
+    <Section kravat={section1} bg={{background:"#008080"}}/>
     <Service serviceTitle={t("service4")} serviceText={t("service2")}/>
  
       

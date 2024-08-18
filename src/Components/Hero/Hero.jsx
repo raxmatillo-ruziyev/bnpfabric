@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="container">
             <div className="hero-box">
                 <div className="hero-left">
-                    <img src={hero} alt="" width={"100%"}  height={"100%"}/>
+                    <img src={hero} className='hero-img' alt="" width={"100%"}  height={"100%"}/>
                 </div>
                 <div className="hero-right">
                     <h3 className='hero-nexttitle'>{t("hero-nexttitle")}</h3>
