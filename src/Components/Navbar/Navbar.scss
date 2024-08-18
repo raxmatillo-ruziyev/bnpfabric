@@ -68,7 +68,7 @@
 }
 
 .navbar-btn {
-    font-size: 25px;
+    font-size: 20px;
     border: 0.2px solid black;
     background: transparent;
     padding-top: 7px;
@@ -253,11 +253,29 @@
     .container {
         max-width: 600px;
     }
+    .navbar-btn {
+        font-size: 18px;
+        border: 0.2px solid black;
+        background: transparent;
+        padding-top: 7px;
+        border-radius: 3px;
+        margin: 2px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 620px) {
     .container {
         max-width: 500px;
+    }
+    .navbar-btn {
+        font-size: 17px;
+        border: 0.2px solid black;
+        background: transparent;
+        padding-top: 6px;
+        border-radius: 3px;
+        margin: 2px;
+        text-align: center;
     }
 }
 
@@ -265,16 +283,37 @@
     .container {
         max-width: 400px;
     }
+    .navbar-btn {
+        font-size: 16px;
+        border: 0.2px solid black;
+        background: transparent;
+        padding-top: 5px;
+        border-radius: 3px;
+        margin: 2px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 420px) {
     .container {
         max-width: 300px;
     }
+    .navbar-btn {
+        font-size: 15px;
+        border: 0.2px solid black;
+        background: transparent;
+        padding-top: 4px;
+        border-radius: 3px;
+        margin: 2px;
+        text-align: center;
+    }
 }
 
 @media (max-width: 320px) {
     .container {
         max-width: 200px;
+    }
+    .logo{
+        width: 120px;
     }
 }

@@ -37,7 +37,7 @@ const Navbar = () => {
                         <ul className="navbar-list">
                             <li className="navbar-item">
                                 <a href="#" className="navbar-logo">
-                                    <img src={logo} alt="logo" width={140} />
+                                    <img src={logo} alt="logo" className='logo' width={140} />
                                 </a>
                                 <a href="#" className="navbar-link">{t('home')}</a>
                                 <a href="#" className="navbar-link">{t('collection')}</a>

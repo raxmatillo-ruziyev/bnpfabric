@@ -13,18 +13,18 @@ const Section = ({kravat,bg}) => {
             <div className="section">
                 <div className="container">
                     <ul className="section-list" style={bg}>
-                        <li className="section-item">
+                        <li className="section-item1">
          <h1 className='section-title'>100%</h1>
          <p className='section-text1'>{t("sectionText")}</p>
                         </li>
-                        <li className="section-item">
+                        <li className="section-item2">
                             <img src={kravat} alt=""  className='section-img'/>
 
                         </li>
-                        <li className="section-item">
+                        <li className="section-item3">
                             <h2 className='section-subtitle'>{t("sectionSubtitle")}</h2>
                             <p className='section-text'>{t("sectionSubtext")}</p>
-                            <button className='section-btn'>{t("button")}</button>
+                          <div className='btn-div'>  <button className='section-btn'>{t("button")}</button></div>
                         </li>
                     </ul>
                 </div>
