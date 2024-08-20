@@ -37,16 +37,16 @@ const data = [
     { id: 8, img: card8, titleKey: "title8", descriptionKey:"description8" },
     { id: 9, img: card9, titleKey: "title9", descriptionKey:"description9" },
     { id: 10, img: card10, titleKey: "title10", descriptionKey:"description10" },
-    { id: 11, img: card11, titleKey: "title1", descriptionKey: "description1" },
-    { id: 12, img: card12, titleKey: "title2", descriptionKey: "description2" },
-    { id: 13, img: card13, titleKey: "title3", descriptionKey:"description3" },
-    { id: 14, img: card14, titleKey: "title4", descriptionKey:"description4" },
-    { id: 15, img: card15, titleKey: "title5", descriptionKey:"description5" },
-    { id: 16, img: card16, titleKey: "title6", descriptionKey:"description6" },
-    { id: 17, img: card17, titleKey: "title7", descriptionKey:"description7" },
-    { id: 18, img: card18, titleKey: "title8", descriptionKey:"description8" },
-    { id: 19, img: card19, titleKey: "title9", descriptionKey:"description9" },
-    { id: 20, img: card20, titleKey: "title10", descriptionKey:"description10" }
+    { id: 11, img: card11, titleKey: "title11", descriptionKey: "description1" },
+    { id: 12, img: card12, titleKey: "title12", descriptionKey: "description2" },
+    { id: 13, img: card13, titleKey: "title13", descriptionKey:"description3" },
+    { id: 14, img: card14, titleKey: "title14", descriptionKey:"description4" },
+    { id: 15, img: card15, titleKey: "title15", descriptionKey:"description5" },
+    { id: 16, img: card16, titleKey: "title16", descriptionKey:"description6" },
+    { id: 17, img: card17, titleKey: "title17", descriptionKey:"description7" },
+    { id: 18, img: card18, titleKey: "title18", descriptionKey:"description8" },
+    { id: 19, img: card19, titleKey: "title19", descriptionKey:"description9" },
+    { id: 20, img: card20, titleKey: "title20", descriptionKey:"description10" }
 ];
 
 const CardDetail = () => {
