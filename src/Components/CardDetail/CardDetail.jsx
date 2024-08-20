@@ -14,6 +14,7 @@ import card10 from '../../assets/20.jpg';
 import Navbar from '../Navbar/Navbar';
 import { useTranslation } from 'react-i18next';
 import Footer from '../Footer/Footer';
+import Slideer from '../Slideer/Slideer';
 
 const data = [
     { id: 1, img: card1, titleKey: "title1", descriptionKey: "description1" },
@@ -84,6 +85,7 @@ const CardDetail = () => {
                     <p>{t("Card topilmadi")}</p>
                 )}
             </div>
+            <Slideer/>
             <Footer/>
         </div>
     );
