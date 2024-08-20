@@ -14,7 +14,7 @@ const Toplam = () => {
     }, []);
   return (
     <>
-    <div className="container">
+    <div className="tcontainer">
        <h1 className='toplam-title'>{t("toplamTitle")}</h1>
        <Link className='toplam-link' to={"qishki"} >{t("qish")}</Link> <br />
        <Link className='toplam-link' to={"bahorgi"} >{t("bahor")}</Link> <br />
