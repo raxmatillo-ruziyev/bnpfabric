@@ -49,10 +49,11 @@ const Kontakt = () => {
             <ToastContainer />
             <div className="kontakt">
                 <div className="container">
+                    <div className='kontakt-box'>
                     <div className="left">
-                        <h2>{t("kontakt")}</h2>
+                        <h2 className='kontakt-title'>{t("kontakt")}</h2>
                         <form onSubmit={handleSubmit}>
-                            <input
+                            <input className='inputjon'
                                 type="email"
                                 placeholder={t("email")}
                                 value={email}
@@ -60,7 +61,7 @@ const Kontakt = () => {
                                 required
                             />
                             <br />
-                            <input
+                            <input className='inputjon'
                                 type="number"
                                 placeholder={t("tel")}
                                 value={tel}
@@ -68,28 +69,27 @@ const Kontakt = () => {
                                 required
                             />
                             <br />
-                            <textarea
+                            <textarea className='textarea'
                                 placeholder={t("message")}
                                 value={message}
                                 onChange={(e) => setMessage(e.target.value)}
                                 required
                             />
                             <br />
-                            <button type="submit">{t("send")}</button>
+                            <button className='kontakt-btn' type="submit">{t("send")}</button>
                         </form>
                     </div>
                     <div className="right">
-                        <iframe
+                        <iframe className='iframe'
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093735!2d144.95592831531598!3d-37.817209979751554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d43d2a6e5b3%3A0x2e8a2e5c47e5d39c!2sMelbourne!5e0!3m2!1sen!2sau!4v1612151812550!5m2!1sen!2sau"
-                            width="600"
-                            height="450"
-                            style={{ border: 0 }}
+                          
                             allowFullScreen=""
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                         ></iframe>
                     </div>
                 </div>
+            </div>
             </div>
         </>
     );

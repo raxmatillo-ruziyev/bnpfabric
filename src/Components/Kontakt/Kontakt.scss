@@ -1,0 +1,248 @@
+/* Umumiy stil */
+.kontakt {
+    width: 100%;
+}
+
+.kontakt-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.kontakt-title {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+.inputjon {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 390px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.textarea {
+    width: 400px;
+    height: 170px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.kontakt-btn {
+    margin-left: 15px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    font-size: 18px;
+    padding: 7px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    &:hover {
+        background: transparent;
+        color: red;
+    }
+}
+
+.right {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.iframe{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    border:none;
+}
+
+
+@media (max-width:1220px) {
+    .container {
+        width: 1100px
+    }
+    // .iframe{
+    //     width:550px;
+    //     height:480px;
+    // }
+
+}
+
+@media (max-width: 1120px) {
+    .container {
+        width: 1000px;
+    }
+    .kontakt-box{
+        padding: 0;
+    }
+    .inputjon{
+        width:350px;
+
+    }
+    .textarea{
+        width:360px;
+    }
+}
+
+@media (max-width: 1020px) {
+    .container {
+        width: 900px;
+    }
+    .kontakt-box{
+        padding: 0;
+        }
+        .inputjon{
+            width:320px;
+            }
+            .textarea{
+                width:330px;
+                }
+}
+
+@media (max-width: 920px) {
+    .container {
+        width: 800px;
+    }
+    .kontakt-box{
+        padding: 0;
+        }
+        .inputjon{
+            width:290px;
+            }
+            .textarea{
+                width:300px;
+                }
+}
+
+@media (max-width: 820px) {
+    .container {
+        width: 700px;
+    }
+    .kontakt-box{
+        display: flex;
+        flex-direction: column-reverse;}
+        .inputjon{
+            width: 80%;}
+            .textarea{
+                width: 82%;}
+                .kontakt-btn{
+                    width:50%;
+                    margin: 10px auto;
+                }
+                .left{
+                    text-align:center;
+                }
+                .right{
+                    width:90%;
+                    margin: 0 auto;
+                    height: 400px;
+                }
+}
+
+@media (max-width: 720px) {
+    .container {
+        width: 600px;
+    }
+    .right{
+        width:90%;
+        margin: 0 auto;
+        height: 350px;
+    }
+    .kontakt-title{
+        font-size: 25px;
+        font-weight: 500;
+    margin: 5px 0;}
+}
+
+@media (max-width: 620px) {
+    .container {
+        width: 500px;
+    }
+    .inputjon{
+        width: 88%;
+    margin: 10px 0;}
+        .textarea{
+            width: 90%;
+        margin: 10px 0;}
+            .kontakt-btn{
+                width:60%;
+                margin: 10px auto;
+            }
+            .left{
+                text-align:center;
+            }
+            .right{
+                width:96%;
+                margin: 0 auto;
+                height: 300px;
+            }
+}
+
+@media (max-width: 520px) {
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 420px) {
+    .container {
+        width: 300px;
+    }
+    .inputjon{
+        width: 83%;
+        margin: 10px 0;}
+        .textarea{
+            width: 87%;
+            margin: 10px 0;}
+            .kontakt-btn{
+                width:75%;
+                margin: 10px auto;
+                }
+                .left{
+                    text-align:center;
+                    }
+                    .right{
+                        width:95%;
+                        margin: 0 auto;
+                        height: 220px;  
+                        }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 200px;
+    }
+    .inputjon{
+        width: 80%;
+        margin: 10px 0;
+    font-size: 13px;}
+    .textarea{
+        width: 85%;
+        margin: 10px 0;
+
+        font-size: 13px;}
+        .kontakt-btn{
+            width:70%;
+            margin: 10px auto;
+            font-size: 13px;
+            }
+            .left{
+                text-align:center;
+                }
+                .right{
+                    padding: 0;
+                    width:96%;
+                    margin: 0 auto;
+                    height: 180px;
+                    }
+
+}
