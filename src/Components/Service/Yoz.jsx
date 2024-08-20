@@ -26,17 +26,17 @@ import { useTranslation } from 'react-i18next';
 import Card3 from '../Card/Card3';
 
 const data = [
-    { id: 1, img: card11, titleKey: "title11" },
+    { id: 1, img: card19, titleKey: "title19" },
     { id: 2, img: card20, titleKey: "title20" },
-    { id: 3, img: card13, titleKey: "title13" },
+    { id: 3, img: card18, titleKey: "title18" },
     { id: 4, img: card4, titleKey: "title4" },
-    { id: 5, img: card15, titleKey: "title15" },
+    { id: 5, img: card17, titleKey: "title17" },
     { id: 6, img: card6, titleKey: "title6" },
-    { id: 7, img: card17, titleKey: "title17" },
-    { id: 8, img: card18, titleKey: "title18" },
+    { id: 7, img: card15, titleKey: "title15" },
+    { id: 8, img: card13, titleKey: "title13" },
     { id: 9, img: card9, titleKey: "title9" },
     { id: 10, img: card10, titleKey: "title10" },
-    { id: 11, img: card1, titleKey: "title1" },
+    { id: 11, img: card11, titleKey: "title11" },
     { id: 12, img: card12, titleKey: "title12" },
     { id: 13, img: card3, titleKey: "title3" },
     { id: 14, img: card14, titleKey: "title14" },
@@ -44,7 +44,7 @@ const data = [
     { id: 16, img: card16, titleKey: "title16" },
     { id: 17, img: card7, titleKey: "title7" },
     { id: 18, img: card8, titleKey: "title8" },
-    { id: 19, img: card19, titleKey: "title19" },
+    { id: 19, img: card1, titleKey: "title1" },
     { id: 20, img: card2, titleKey: "title2" }
 ];
 
