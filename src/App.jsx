@@ -1,10 +1,11 @@
 import React from 'react';
 import {  Route, Routes } from 'react-router-dom';
-import Home from './pages/Home/Home'; // Home sahifasiga yo'naltirish
+
 import CardDetail from './Components/CardDetail/CardDetail';
 import About from './Pages/About/About';
 import Collection from './Pages/Collection/Collection';
 import Contact from './Pages/Contact/Contact';
+import Home from './Pages/Home/Home';
 
 function App() {
     return (
