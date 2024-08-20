@@ -1,4 +1,5 @@
 import React from 'react'
+import './Collection.scss'
 import Navbar from '../../Components/Navbar/Navbar'
 import Footer from '../../Components/Footer/Footer'
 import Service from '../../Components/Service/Service'
@@ -10,12 +11,14 @@ const Collection = () => {
   return (
     <div className='container'>
       <Navbar />
-     <div style={{
-      display:"flex"
-     }}>
-     <Toplam />
+     <div className='divjon'>
+    <div>
+    <Toplam />
+    </div>
    
-    <Outlet/> 
+<div>
+<Outlet/> 
+</div>
      </div>
       <Footer />
 
