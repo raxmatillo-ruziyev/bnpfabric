@@ -74,9 +74,9 @@ const Navbar = () => {
                                     <FiMenu />
                                 </button>
                                 <Drawer onClose={onClose} open={open}>
-                                <Link to="/" className="navbar-link2">{t('home')}</Link>
-                                <Link to="/collection" className="navbar-link2">{t('collection')}</Link>
-                                <Link to="/about" className="navbar-link2">{t('about_us')}</Link>
+                                <Link to="/" className="navbar-link2">{t('home')}</Link> <br />
+                                <Link to="/collection" className="navbar-link2">{t('collection')}</Link> <br />
+                                <Link to="/about" className="navbar-link2">{t('about_us')}</Link> <br />
                                 <Link to="/contact" className="navbar-link2">{t('contacts')}</Link>
 
                                     <div className="language-dropdown2">

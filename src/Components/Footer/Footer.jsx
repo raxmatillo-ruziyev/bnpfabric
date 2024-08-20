@@ -9,37 +9,37 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <ul className="footer-list">
-          <li className="footer-item">
-            <img src={logo} alt="Logo" />
+          <li className="footer-item1">
+            <img src={logo} alt="Logo"  width={160}/>
             <p className='footer-text'>{t("footerText")}</p>
           </li>
-          <li className="footer-item">
+          <li className="footer-item2">
             <h3 className='footer-title'>{t("footerTitle")}</h3>
-            <Link to="/">{t("home")}</Link>
-            <Link to="/about">{t("about")}</Link>
-            <Link to="/collection">{t("collection")}</Link>
-            <Link to="/contact">{t("contact")}</Link>
+            <Link className='footer-link' to="/">{t("home")}</Link>
+            <Link className='footer-link' to="/about">{t("about_us")}</Link>
+            <Link className='footer-link' to="/collection">{t("collection")}</Link>
+            <Link className='footer-link' to="/contact">{t("contacts")}</Link>
           </li>
-          <li className="footer-item">
+          <li className="footer-item3">
             <h3 className='footer-title'>{t("footerTitle2")}</h3>
-            <a href="#">{t("link1")}</a>
-            <a href="#">{t("link2")}</a>
-            <a href="#">{t("link3")}</a>
-            <a href="#">{t("link4")}</a>
-            <a href="tel:+998933837585">+998 93 383 75 85</a>
-            <a href="tel:+998939607800">+998 93 960 78 00</a>
+            <a className='footer-link2' href="#">{t("link1")}</a>
+            <a className='footer-link2' href="#">{t("link2")}</a>
+            <a className='footer-link2' href="#">{t("link3")}</a>
+            <a className='footer-link2' href="#">{t("link4")}</a>
+            <a className='footer-link2' href="tel:+998933837585">+998 93 383 75 85</a>
+            <a className='footer-link2' href="tel:+998939607800">+998 93 960 78 00</a>
           </li>
           <li className="footer-item">
-            <h3 className='footer-title'>{t("footerTitle3")}</h3>
-            <label>
-              <input type="email" placeholder={t("emailPlaceholder")} />
-              <button type="button">{t("footerBtn")}</button>
+            <h3 className='footer-title'>{t("footerTitle3")}</h3><br />
+            <label className='footer-label'>
+              <input className='footer-input' type="email" placeholder={t("emailPlaceholder")} />
+              <button className='footer-btn' type="button">{t("footerBtn")}</button>
             </label>
           </li>
         </ul>
         <div className='footer-box'>
           <a href="#" className='footer-nextlink'>
-            © 2024 MChJ "BUXORA NATURAL PRODUCT". Barcha huquqlar himoyalangan.
+             {t("footer-down")}
           </a>
         </div>
       </div>
