@@ -10,8 +10,13 @@ const Collection = () => {
   return (
     <div className='container'>
       <Navbar />
-      <Toplam />
-      <Outlet/>
+     <div style={{
+      display:"flex"
+     }}>
+     <Toplam />
+   
+    <Outlet/> 
+     </div>
       <Footer />
 
     </div>

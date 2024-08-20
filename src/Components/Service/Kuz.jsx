@@ -23,6 +23,7 @@ import card18 from '../../assets/28.jpg';
 import card19 from '../../assets/29.jpg';
 import card20 from '../../assets/30.jpg';
 import { useTranslation } from 'react-i18next';
+import Card3 from '../Card/Card3';
 
 const data = [
     { id: 1, img: card10, titleKey: "title10" },
@@ -57,13 +58,13 @@ const Kuz = ({ serviceTitle, serviceText }) => {
 
     return (
         <div className="service">
-            <div className="container">
+            <div className="bcontainer">
                 <h1 className='service-title'>{serviceTitle}</h1>
                 <p className='service-text'>{serviceText}</p>
                 <ul className='service-list'>
                     {data.map((card) => (
                         <li key={card.id} onClick={() => handleCardClick(card.id)}>
-                            <Card cardImg={card.img} cardTitle={t(card.titleKey)} />
+                            <Card3 cardImg={card.img} cardTitle={t(card.titleKey)} />
                         </li>
                     ))}
                 </ul>
