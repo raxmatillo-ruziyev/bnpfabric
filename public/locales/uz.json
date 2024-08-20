@@ -84,6 +84,13 @@
   "content2-two":"Telefon",
   "content2-three":"Manzil",
   "content2-five":"info@bnpfabric.uz",
-  "content2-seven":"Buxoro, st. Alpomish 80."
+  "content2-seven":"Buxoro, st. Alpomish 80.",
+  "succes":"Habar muvafaqqiyatli yuborildi",
+  "error":"Xatolik yuz berdi",
+  "kontakt":"Aloqa",
+  "email":"Sizning elektron pchtangiz",
+  "tel":"Telefon raqam",
+  "message":"Sizning xabaringiz shu yerda",
+  "send":"Yuborish"
 
 }

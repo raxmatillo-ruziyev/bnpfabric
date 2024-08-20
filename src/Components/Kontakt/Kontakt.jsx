@@ -34,12 +34,12 @@ const Kontakt = () => {
                     text: text,
                 }),
             });
-            toast.success('Habar yuborildi');
+            toast.success(t("succes"));
             setEmail('');
             setTel('');
             setMessage('');
         } catch (error) {
-            toast.error('Xatolik yuz berdi');
+            toast.error(t("error"));
             console.error(error);
         }
     };
