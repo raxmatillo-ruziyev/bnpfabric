@@ -9,8 +9,9 @@ const Contact = () => {
     <div className='container'>
       <Navbar/>
       <br />
-      <Kontakt/>
+      <Kontakt/> <br />
       <Content2/>
+      <br />
       <Footer/>
     </div>
   )
