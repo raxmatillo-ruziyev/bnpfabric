@@ -10,6 +10,7 @@ import section3 from '../../assets/113.png';
 import Service from '../../Components/Service/Service';
 import { useTranslation } from 'react-i18next';
 import New from '../../Components/New/New';
+import Footer from '../../Components/Footer/Footer';
 
 const Home = () => {
   const { t, i18n } = useTranslation();
@@ -31,6 +32,7 @@ const Home = () => {
       <Section kravat={section1} bg={{background:"#008080"}}/>
       <Service serviceTitle={t("service4")} serviceText={t("service2")}/>
       <New/>
+      <Footer/>
     </>
   );
 }
